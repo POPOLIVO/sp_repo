@@ -6,31 +6,31 @@ import lombok.Setter;
 @Getter
 @Setter
 public class JsonResult<T> {
-	/** æˆåŠŸ */
+	/** ³É¹¦ */
 	public static final int SUCCESS = 200;
 
-	/** æ²¡æœ‰ç™»å½• */
+	/** Ã»ÓĞµÇÂ¼ */
 	public static final int NOT_LOGIN = 400;
 
-	/** å‘ç”Ÿå¼‚å¸¸ */
+	/** ·¢ÉúÒì³£ */
 	public static final int EXCEPTION = 401;
 
-	/** ç³»ç»Ÿé”™è¯¯ */
+	/** ÏµÍ³´íÎó */
 	public static final int SYS_ERROR = 402;
 
-	/** å‚æ•°é”™è¯¯ */
+	/** ²ÎÊı´íÎó */
 	public static final int PARAMS_ERROR = 403;
 
-	/** ä¸æ”¯æŒæˆ–å·²ç»åºŸå¼ƒ */
+	/** ²»Ö§³Ö»òÒÑ¾­·ÏÆú */
 	public static final int NOT_SUPPORTED = 410;
 
-	/** AuthCodeé”™è¯¯ */
+	/** AuthCode´íÎó */
 	public static final int INVALID_AUTHCODE = 444;
 
-	/** å¤ªé¢‘ç¹çš„è°ƒç”¨ */
+	/** Ì«Æµ·±µÄµ÷ÓÃ */
 	public static final int TOO_FREQUENT = 445;
 
-	/** æœªçŸ¥çš„é”™è¯¯ */
+	/** Î´ÖªµÄ´íÎó */
 	public static final int UNKNOWN_ERROR = 499;
 	
 	private int code;
